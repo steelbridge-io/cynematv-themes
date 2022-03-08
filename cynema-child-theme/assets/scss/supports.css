@@ -1,0 +1,22 @@
+/** Custom CSS **/
+/** Typography **/
+.white-font-color h4 {
+  color: #ffffff; }
+.white-font-color p {
+  color: #ffffff; }
+
+/** Theme Template */
+.page-template-fullwidth #page #content .container {
+  max-width: 1879px !important;
+  width: 70%; }
+
+/** Nav */
+body header#masthead {
+  background-color: transparent;
+  padding: 0.74rem 1rem;
+  position: absolute;
+  z-index: 999;
+  width: 100%;
+  top: 30px; }
+
+/*# sourceMappingURL=supports.css.map */
