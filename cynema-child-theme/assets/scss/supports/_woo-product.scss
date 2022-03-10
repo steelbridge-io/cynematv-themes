@@ -1,0 +1,21 @@
+/** WooCommerce Product Template */
+
+.product-template-default {
+
+  background: $black-background;
+  padding-top: 2.618em;
+  padding-bottom: 2.618em;
+
+  #content {
+    #primary {
+      margin: 0 auto;
+    }
+    #main {
+      background-color: $white-smoke;
+      padding: 1.618em;
+      margin-top: 10em;
+      margin-bottom: 10em;
+    }
+  }
+
+}

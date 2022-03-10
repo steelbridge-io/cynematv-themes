@@ -1,8 +1,13 @@
 /** Custom CSS **/
+
 @import "supports/variables";
-
+@import "supports/globals";
 @import "supports/typography";
-
 @import "supports/theme-template";
-
 @import "supports/nav";
+@import "supports/front-page";
+@import "supports/video";
+@import "supports/woo-product";
+@import "supports/account";
+@import "supports/login-registration";
+

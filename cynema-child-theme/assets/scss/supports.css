@@ -1,9 +1,25 @@
 /** Custom CSS **/
+/** Global CSS */
+#content a {
+  color: #f90000; }
+
 /** Typography **/
+.white-font-color h2 {
+  color: #ffffff; }
+.white-font-color h3 {
+  color: #ffffff; }
 .white-font-color h4 {
   color: #ffffff; }
 .white-font-color p {
   color: #ffffff; }
+.white-font-color address {
+  color: #ffffff; }
+
+.red-background {
+  background: #f90000; }
+
+.small-font p {
+  font-size: 0.999rem; }
 
 /** Theme Template */
 .page-template-fullwidth #page #content .container {
@@ -18,5 +34,153 @@ body header#masthead {
   z-index: 999;
   width: 100%;
   top: 30px; }
+  body header#masthead .nav-link {
+    width: 169px;
+    height: 50px;
+    display: flex;
+    border: 3px solid #F90000 !important;
+    justify-content: center;
+    align-items: center;
+    color: #F2F2F2 !important;
+    font-size: 18px;
+    padding-right: 0;
+    transition: 1.2s; }
+  body header#masthead .nav-link:hover {
+    border: 3px solid #fff !important;
+    color: #F90000 !important;
+    transition: 1.2s; }
+
+#menu-header-menu li:nth-child(n+2) {
+  margin-left: 5px;
+  margin-right: 5px; }
+#menu-header-menu li:nth-child(1) {
+  margin-right: 5px; }
+
+#menu-header-menu #menu-item-190,
+#menu-header-menu #menu-item-345 {
+  display: none; }
+
+.logged-in #menu-header-menu #menu-item-190,
+.logged-in #menu-header-menu #menu-item-345 {
+  display: initial; }
+
+/** Front Page */
+.newsletter-ftr {
+  display: flex;
+  height: 50px !important;
+  width: 659px;
+  margin: 0 auto;
+  position: relative;
+  border-right: none; }
+  .newsletter-ftr .form-control {
+    width: 479px;
+    height: 50px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    background: white;
+    box-shadow: none !important;
+    border: none;
+    color: #0000009e !important; }
+  .newsletter-ftr .form-control::placeholder {
+    color: #a8a8a8; }
+  .newsletter-ftr span.ajax-loader {
+    position: absolute; }
+  .newsletter-ftr .newsletter-btn {
+    width: 200px;
+    height: 50px;
+    font-size: 16px;
+    background: transparent !important;
+    z-index: 999;
+    right: -16px;
+    border: none;
+    position: absolute;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    text-align: left; }
+  .newsletter-ftr i {
+    position: absolute;
+    right: 0;
+    color: #fff;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background: #F90000;
+    height: 50px;
+    width: 181px;
+    font-weight: 400;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    transition: 2.0s;
+    padding-right: 16px; }
+
+@media only screen and (max-width: 480px) {
+  .newsletter-ftr {
+    width: 100% !important; }
+    .newsletter-ftr .form-control {
+      width: 226px !important;
+      border-top-right-radius: 0px;
+      border-bottom-right-radius: 0px; } }
+.exclusive_btn a {
+  height: 50px;
+  width: 376px;
+  display: flex !important;
+  margin: 0 auto;
+  padding: 0 !important;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  color: #ffffff !important;
+  font-size: 18px !important;
+  font-weight: 400;
+  background: #f90000 !important;
+  border: 4px solid #FBFBFB !important; }
+.exclusive_btn a:hover {
+  background: transparent !important;
+  border: 4px solid #fff !important;
+  color: #F90000 !important; }
+
+@media only screen and (min-width: 320px) and (max-width: 375px) {
+  .newsletter-ftr i {
+    font-size: 12px !important;
+    width: 122px !important;
+    padding-right: 12px !important; }
+  .newsletter-ftr .newsletter-btn {
+    width: 122px !important;
+    height: 50px !important;
+    font-size: 12px !important;
+    right: -4px !important; } }
+/** Video CSS */
+.video-section {
+  padding-top: 2.618em;
+  padding-bottom: 2.618em; }
+
+/** WooCommerce Product Template */
+.product-template-default {
+  background: #000000;
+  padding-top: 2.618em;
+  padding-bottom: 2.618em; }
+  .product-template-default #content #primary {
+    margin: 0 auto; }
+  .product-template-default #content #main {
+    background-color: #f5f5f5;
+    padding: 1.618em;
+    margin-top: 10em;
+    margin-bottom: 10em; }
+
+/** Account CSS */
+/** Login CSS */
+#login-wrapper .pieregWrapper input[type="submit"] {
+  color: #000000;
+  background: #f90000;
+  border-bottom: none; }
+#login-wrapper .pieregWrapper input[type="submit"]:hover {
+  border: 2px solid #ffffff;
+  background: #f90000; }
+
+#login-form-wrapper .container {
+  width: 33%; }
+#login-form-wrapper p {
+  color: #ffffff; }
 
 /*# sourceMappingURL=supports.css.map */
