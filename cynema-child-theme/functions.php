@@ -1,4 +1,10 @@
 <?php
+ 
+ /**
+	* Disable JetPack Upsells
+	*/
+ 
+ add_filter( 'jetpack_just_in_time_msgs', '_return_false' );
 
 // Include php files
 include get_theme_file_path('/includes/shortcodes.php');
@@ -6,17 +12,16 @@ include get_theme_file_path('includes/custom-post-types/video.php');
 
 // Enqueue needed scripts
 function needed_styles_and_scripts_enqueue() {
-	
-    // Custom script
-    wp_enqueue_script( 'wpbs-custom-script', get_stylesheet_directory_uri() . '/assets/javascript/script.js' , array( 'jquery' ) );
-
-    // enqueue style
-	wp_enqueue_style( 'parent-style', get_template_directory_uri() . '/style.css' );
-	
-	// Add-ons
-	wp_enqueue_style('custom', get_stylesheet_directory_uri() . '/assets/scss/supports.css', array(), '', 'all' );
-
-
+ 
+	 // Custom script
+ wp_enqueue_script( 'wpbs-custom-script', get_stylesheet_directory_uri() . '/assets/javascript/script.js' , array( 'jquery' ) );
+ 
+	 // enqueue style
+ wp_enqueue_style( 'parent-style', get_template_directory_uri() . '/style.css' );
+ 
+ // Add-ons
+ wp_enqueue_style('custom', get_stylesheet_directory_uri() . '/assets/scss/supports.css', array(), '', 'all' );
+ 
 }
 add_action( 'wp_enqueue_scripts', 'needed_styles_and_scripts_enqueue' );
 
