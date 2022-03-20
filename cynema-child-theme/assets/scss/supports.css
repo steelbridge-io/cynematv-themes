@@ -1,7 +1,7 @@
 /** Custom CSS **/
 /** Global CSS */
-#content a {
-  color: #f90000; }
+.mailpoet_form_close_icon {
+  background-color: #ffffff; }
 
 /** Typography **/
 .white-font-color h2 {
@@ -121,6 +121,13 @@ body header#masthead {
       width: 226px !important;
       border-top-right-radius: 0px;
       border-bottom-right-radius: 0px; } }
+.btn_webtv a, .contact_btn a {
+  background: #f90000 !important; }
+.btn_webtv a:hover, .contact_btn a:hover {
+  background: transparent !important;
+  border: 4px solid #fff !important;
+  color: #FFFFFF !important; }
+
 .exclusive_btn a {
   height: 50px;
   width: 376px;
@@ -182,5 +189,15 @@ body header#masthead {
   width: 33%; }
 #login-form-wrapper p {
   color: #ffffff; }
+
+/** Stripe CSS */
+.stripe-card-group {
+  width: 50%; }
+
+#stripe-exp-element {
+  width: 85px; }
+
+#stripe-cvc-element {
+  width: 85px; }
 
 /*# sourceMappingURL=supports.css.map */

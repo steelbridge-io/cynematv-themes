@@ -79,6 +79,17 @@
 
 }
 
+.btn_webtv, .contact_btn {
+  a {
+    background: $red-background !important;
+  }
+  a:hover {
+    background: transparent !important;
+    border: 4px solid #fff !important;
+    color: #FFFFFF !important;
+  }
+}
+
 .exclusive_btn {
 
   a {
