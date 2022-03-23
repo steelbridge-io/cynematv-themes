@@ -1,7 +1,30 @@
 /** Custom CSS **/
 /** Global CSS */
+.no-padding {
+  padding: 0 !important; }
+
+.no-margin {
+  margin: 0 !important; }
+
+.line-height-1 {
+  line-height: 1 !important; }
+
 .mailpoet_form_close_icon {
   background-color: #ffffff; }
+
+.center-container {
+  margin: 0 auto;
+  display: block; }
+
+.watch-trailer a {
+  color: #ffffff !important; }
+
+.watch-trailer a:hover {
+  color: #f90000 !important; }
+
+.container {
+  margin-left: auto !important;
+  margin-right: auto !important; }
 
 /** Typography **/
 .white-font-color h2 {
@@ -65,6 +88,9 @@ body header#masthead {
   display: initial; }
 
 /** Front Page */
+.front-page-title-h1 {
+  line-height: 1; }
+
 .newsletter-ftr {
   display: flex;
   height: 50px !important;
@@ -121,13 +147,6 @@ body header#masthead {
       width: 226px !important;
       border-top-right-radius: 0px;
       border-bottom-right-radius: 0px; } }
-.btn_webtv a, .contact_btn a {
-  background: #f90000 !important; }
-.btn_webtv a:hover, .contact_btn a:hover {
-  background: transparent !important;
-  border: 4px solid #fff !important;
-  color: #FFFFFF !important; }
-
 .exclusive_btn a {
   height: 50px;
   width: 376px;
@@ -158,9 +177,44 @@ body header#masthead {
     font-size: 12px !important;
     right: -4px !important; } }
 /** Video CSS */
+#masthead-video {
+  background-color: #000000; }
+  #masthead-video .header-video {
+    padding-top: 1.5em; }
+
+/*.cynematv_post_type-template-video-template {
+  .site {
+    .site-content {
+      .container {
+        .row {
+          .content-area {
+            .site-main {
+              .cynematv_post_type {
+                .entry-content {
+                  .vc_section {
+                    padding-top: 10px !important;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
 .video-section {
   padding-top: 2.618em;
-  padding-bottom: 2.618em; }
+  padding-bottom: 2.618em;
+}*/
+.movie.animate__animated.animate__fadeInUp {
+  animation-duration: 3s; }
+
+.lni-arrow-left::before {
+  color: #ffffff;
+  font-size: 3rem;
+  line-height: .5;
+  font-weight: 900; }
 
 /** WooCommerce Product Template */
 .product-template-default {
@@ -199,5 +253,345 @@ body header#masthead {
 
 #stripe-cvc-element {
   width: 85px; }
+
+/** Contact Page CSS */
+.contact-container {
+  max-width: 1500px; }
+
+section.vc_section.sec-banenr-hdr {
+  background-size: 100% 100% !important; }
+
+.sec-contactus h5 {
+  margin-bottom: 28px !important; }
+
+.sec-contactus p {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: 'Lato', sans-serif !important; }
+
+.sec-contactus ul.contact-information li,
+.sec-contactus ul.contact-information li a, ul.soical_info li a {
+  color: #ffffff;
+  font-family: 'Lato';
+  font-weight: 400;
+  font-size: 14px; }
+
+.sec-contactus ul.contact-information li {
+  position: relative;
+  padding-left: 26px;
+  margin-bottom: 12px; }
+
+.sec-contactus ul.contact-information li:first-child:before,
+.sec-contactus ul.contact-information li:nth-child(2):before,
+.sec-contactus ul.contact-information li:nth-child(3):before {
+  content: "\f3c5";
+  font-weight: 800;
+  font-family: "Font Awesome 5 Free";
+  position: absolute;
+  left: 0;
+  font-size: 16px;
+  color: #13090d; }
+
+.sec-contactus ul.contact-information li:nth-child(2):before {
+  content: "\f879"; }
+
+.sec-contactus ul.contact-information li:nth-child(3):before {
+  content: "\f0e0"; }
+
+.sec-contactus .form-control {
+  height: 51px;
+  margin-bottom: 10px !important;
+  border: 1px solid #d6d6d6;
+  color: #000000;
+  box-shadow: none !important;
+  font-family: 'Lato';
+  font-weight: 400;
+  font-size: 14px;
+  padding-left: 20px; }
+
+.sec-contactus .form-control::placeholder {
+  color: #c0c0c0; }
+
+.sec-contactus .box-lft {
+  padding-right: 5px; }
+
+.sec-contactus .box-rt {
+  padding-left: 5px; }
+
+.sec-contactus textarea {
+  height: 180px !important;
+  resize: none;
+  padding: 10px 20px 0px !important; }
+
+.sec-contactus .leav-hdn:before {
+  content: "\f0e0";
+  font-weight: 800;
+  font-family: 'Font Awesome 5 Free';
+  position: absolute;
+  left: 0; }
+
+.sec-contactus .leav-hdn {
+  padding-left: 40px;
+  position: relative; }
+
+.sec-contactus .wpcf7-acceptance span {
+  margin: 8px 10px 10px 30px !important; }
+
+.sec-contactus span.wpcf7-list-item label {
+  display: flex;
+  align-items: center; }
+
+.sec-contactus span.wpcf7-list-item-label {
+  color: #c0c0c0;
+  font-size: 14px;
+  font-family: 'Lato'; }
+
+.sec-contactus span.wpcf7-not-valid-tip {
+  display: none; }
+
+.sec-contactus .get-btn {
+  background: transparent !important;
+  color: #ffffff !important; }
+
+/* .sec-contactus .form-mark ul.zoom-social-icons-list {
+    display: flex;
+    flex-direction: column;
+} */
+/* .sec-contactus .form-mark ul.zoom-social-icons-list li {
+    position: relative;
+} */
+/* .sec-contactus .form-mark ul.zoom-social-icons-list li:first-child:after,
+.sec-contactus .form-mark ul.zoom-social-icons-list li:nth-child(2):after,
+.sec-contactus .form-mark ul.zoom-social-icons-list li:nth-child(3):after,
+.sec-contactus .form-mark ul.zoom-social-icons-list li:nth-child(4):after {
+    content: "Facebook";
+    font-size: 14px;
+    color: #707070;
+    padding-left: 0px;
+    position: absolute;
+    top: 4px;
+    font-family: 'Lato';
+}
+.sec-contactus .form-mark ul.zoom-social-icons-list li:nth-child(2):after{
+     content: "Twitter";
+}
+.sec-contactus .form-mark ul.zoom-social-icons-list li:nth-child(3):after{
+     content: "YouTube";
+}
+.sec-contactus .form-mark ul.zoom-social-icons-list li:nth-child(4):after{
+     content: "Linkedin";
+} */
+/* Set the idle overlay to transparent white */
+.jwplayer.jw-state-idle .jw-controls {
+  background: rgba(0, 0, 0, 0.2); }
+
+.jwplayer .jw-settings-menu .jw-settings-topbar {
+  background-color: rgba(0, 0, 0, 0.5); }
+
+/* Hide titles on complete */
+.jwplayer.jw-state-complete .jw-title .jw-title-primary,
+.jwplayer.jw-state-complete .jw-title .jw-title-secondary {
+  display: none; }
+
+/* Round, white play & restart buttons with black icons */
+.jwplayer .jw-display-controls .jw-display-icon-container,
+.jwplayer .jw-display-controls .jw-display-icon-container {
+  background-color: white;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px; }
+
+.jwplayer .jw-display-controls .jw-display-icon-container .jw-icon,
+.jwplayer .jw-display-controls .jw-display-icon-container .jw-icon {
+  color: #000000;
+  width: 60px;
+  height: 60px;
+  padding: 20px; }
+
+.jwplayer .jw-display-controls .jw-display-icon-container .jw-icon:hover,
+.jwplayer .jw-display-controls .jw-display-icon-container .jw-icon:hover {
+  color: #f90000; }
+
+/* Change play button colors on idle state, handle hover transitions */
+.jwplayer.jw-state-idle .jw-display-controls .jw-display-icon-container {
+  background-color: #f90000;
+  height: 80px;
+  width: 80px;
+  -webkit-transition: -webkit-transform 0.35s;
+  transition: transform 0.35s; }
+
+.jwplayer.jw-state-idle .jw-display-controls .jw-display-icon-container .jw-icon {
+  color: #ffffff;
+  height: 40px;
+  width: 40px;
+  padding: 20px; }
+
+/* Shrink play button on smaller breakpoints */
+.jwplayer.jw-state-idle.jw-breakpoint-3 .jw-display-controls .jw-display-icon-container,
+.jwplayer.jw-state-idle.jw-breakpoint-2 .jw-display-controls .jw-display-icon-container {
+  height: 60px;
+  width: 60px; }
+
+.jwplayer.jw-state-idle.jw-breakpoint-1 .jw-display-controls .jw-display-icon-container,
+.jwplayer.jw-state-idle.jw-breakpoint-0 .jw-display-controls .jw-display-icon-container {
+  height: 40px;
+  width: 40px; }
+
+.jwplayer.jw-state-idle.jw-breakpoint-3 .jw-display-controls .jw-display-icon-container .jw-icon,
+.jwplayer.jw-state-idle.jw-breakpoint-2 .jw-display-controls .jw-display-icon-container .jw-icon {
+  height: 40px;
+  width: 40px;
+  padding: 10px; }
+
+.jwplayer.jw-state-idle.jw-breakpoint-1 .jw-display-controls .jw-display-icon-container .jw-icon,
+.jwplayer.jw-state-idle.jw-breakpoint-0 .jw-display-controls .jw-display-icon-container .jw-icon {
+  height: 20px;
+  width: 20px;
+  padding: 10px; }
+
+.jwplayer.jw-state-idle .jw-display-controls .jw-display-icon-container:hover {
+  background-color: rgba(0, 0, 0, 0.5); }
+
+.jwplayer.jw-state-idle .jw-display-controls .jw-display-icon-container .jw-icon:hover {
+  color: #fff; }
+
+.jwplayer.jw-state-paused .jw-controls {
+  background-color: rgba(147, 221, 230, 0.3); }
+
+/* Customize font style and positioning for titles */
+.jwplayer.jw-state-idle .jw-title {
+  height: 100%;
+  display: flex;
+  justify-content: left;
+  flex-direction: column;
+  align-items: start; }
+
+/* Apply new styles to video title and description, handle transitions */
+.jwplayer .jw-title-primary {
+  font-size: 48px;
+  padding: 30px;
+  color: #ffffff;
+  text-align: left;
+  text-transform: uppercase;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 500;
+  padding-bottom: 15px;
+  -webkit-transition: -webkit-transform 0.35s;
+  transition: transform 0.35s; }
+
+/* Apple new styles to video description */
+.jwplayer .jw-title-secondary {
+  font-size: 18px;
+  max-width: 70%;
+  font-weight: 500;
+  opacity: 0;
+  margin: 0 auto;
+  color: #ffffff;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  white-space: normal;
+  line-height: 1.3;
+  -webkit-transition: opacity 0.2s, -webkit-transform 0.35s;
+  transition: opacity 0.2s, transform 0.35s;
+  -webkit-transition-delay: 0.08s;
+  transition-delay: 0.08s;
+  -webkit-transition-duration: 0.35s;
+  transition-duration: 0.35s; }
+
+/* Decrease font size on medium-small breakpoints */
+.jwplayer.jw-breakpoint-3 .jw-title-primary,
+.jwplayer.jw-breakpoint-2 .jw-title-primary,
+.jwplayer.jw-breakpoint-1 .jw-title-primary,
+.jwplayer.jw-breakpoint-0 .jw-title-primary {
+  font-size: 22px; }
+
+.jwplayer.jw-breakpoint-3 .jw-title-secondary,
+.jwplayer.jw-breakpoint-2 .jw-title-secondary {
+  font-size: 14px; }
+
+/* Hide the description on smallest breakpoints */
+.jwplayer.jw-breakpoint-1 .jw-title-secondary,
+.jwplayer.jw-breakpoint-0 .jw-title-secondary {
+  display: none; }
+
+/* Change colors and remove gradient shadow for control bar, change icon color on pause */
+.jwplayer .jw-display {
+  padding-bottom: 45px; }
+
+.jwplayer .jw-controlbar {
+  background-color: rgba(0, 0, 0, 0.5); }
+
+.jwplayer .jw-controlbar .jw-button-container .jw-button-color {
+  color: #737373; }
+
+.jwplayer.jw-state-paused .jw-controlbar .jw-button-container .jw-button-color {
+  color: #737373; }
+
+.jwplayer .jw-controlbar .jw-button-container .jw-button-color:hover {
+  color: #ffffff; }
+
+/* Move tooltips closer to control bar with inline timeslider, change colors, round corners, remove shadow */
+.jwplayer .jw-controlbar .jw-tooltip {
+  bottom: 70%;
+  box-shadow: none; }
+
+.jwplayer .jw-controlbar .jw-tooltip.jw-open {
+  border-radius: 5px;
+  color: #ffffff; }
+
+.jwplayer .jw-controlbar .jw-tooltip .jw-text {
+  background-color: #ffffff;
+  border-radius: 5px;
+  border: 0; }
+
+.jwplayer .jw-controlbar .jw-text {
+  color: #ffffff; }
+
+.jwplayer .jw-volume-tip,
+.jwplayer .jw-time-tip {
+  padding-bottom: 0; }
+
+/* Customize colors of volume control knob */
+.jwplayer .jw-overlay .jw-slider-volume .jw-slider-container .jw-knob {
+  background-color: #f90000; }
+
+/* Customize colors of timeslider */
+.jwplayer .jw-controlbar .jw-slider-time .jw-slider-container .jw-rail {
+  background-color: #1E1E1E; }
+
+.jwplayer .jw-controlbar .jw-slider-time .jw-slider-container .jw-buffer {
+  background-color: #000000; }
+
+.jwplayer .jw-controlbar .jw-slider-time .jw-slider-container .jw-progress {
+  background-color: #f90000; }
+
+.jwplayer .jw-controlbar .jw-slider-time .jw-slider-container .jw-knob {
+  background-color: #f90000; }
+
+/* Customize colors/opacity of the settings menu */
+.jwplayer .jw-settings-menu {
+  background-color: transparent; }
+
+.jwplayer .jw-settings-menu .jw-settings-topbar {
+  background-color: rgba(0, 0, 0, 0.2); }
+
+.jwplayer .jw-settings-menu .jw-settings-topbar .jw-icon:hover {
+  color: #ffffff; }
+
+.jwplayer .jw-settings-menu .jw-settings-submenu {
+  background-color: rgba(255, 255, 255, 0.65); }
+
+.jwplayer .jw-settings-menu .jw-settings-content-item {
+  color: #ffffff; }
+
+.jwplayer .jw-settings-menu .jw-settings-content-item:hover,
+.jwplayer .jw-settings-menu .jw-settings-item-active {
+  color: #e5322c;
+  font-weight: bold; }
+
+/** Shop CSS */
+.vc_btn3.vc_btn3-color-danger, .vc_btn3.vc_btn3-color-danger.vc_btn3-style-flat {
+  background-color: #f90000 !important; }
 
 /*# sourceMappingURL=supports.css.map */
