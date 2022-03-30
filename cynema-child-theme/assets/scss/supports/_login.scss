@@ -1,0 +1,58 @@
+/** Login CSS */
+
+#login-wrapper {
+  .pieregWrapper input[type="submit"] {
+    color: $dark-font;
+    background: $red-background;
+    border-bottom: none;
+  }
+  .pieregWrapper input[type="submit"]:hover {
+    border: 2px solid $white-border;
+    background: $red-background;
+  }
+}
+
+.woocommerce-form.woocommerce-form-login.login {
+  border: none;
+}
+.login-form {
+  width: 487px;
+  margin-left: auto;
+  margin-right: auto;
+  .woocommerce {
+    h2 {
+      text-align: center;
+    }
+    .woocommerce-form {
+      .form-row {
+        margin: 0 auto !important;
+      }
+    }
+  }
+}
+
+.woocommerce-LostPassword.lost_password {
+  text-align: center;
+  a {
+    color: $red;
+    text-align: center;
+  }
+}
+
+  .woocommerce-LostPassword.lost_password a:hover {
+    color: $red;
+  }
+  #username.woocommerce-Input.input-text.form-control,
+  #password.woocommerce-Input.input-text.form-control{
+    box-shadow: rgba(249, 0, 0, 1) 0px 5px 15px !important;
+  }
+  .woocommerce-form-login {
+    .woocommerce-form-row {
+      margin: 0 auto !important;
+    }
+    .form-row {
+      width: 55%;
+      margin: 0 auto !important;
+    }
+  }
+

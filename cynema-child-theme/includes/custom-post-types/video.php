@@ -97,7 +97,7 @@
         'show_in_nav_menus'          => true,
         'show_tagcloud'              => true,
         'update_count_callback'      => 'video_update',
-        'show_in_rest'               => false,
+        'show_in_rest'               => true,
       );
       register_taxonomy( 'video_taxonomy', array( 'cynematv_post_type' ), $args );
       

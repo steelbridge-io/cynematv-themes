@@ -13,10 +13,10 @@ include get_theme_file_path('includes/custom-post-types/video.php');
 // Enqueue needed scripts
 function needed_styles_and_scripts_enqueue() {
  
- // Custom script
+	 // Custom script
  wp_enqueue_script( 'wpbs-custom-script', get_stylesheet_directory_uri() . '/assets/javascript/script.js' , array( 'jquery' ) );
  
- // Video JS
+ 	// Video JS
  wp_enqueue_script('video-js', get_stylesheet_directory_uri() . '/assets/javascript/video.js', array(), '', true );
  
  // enqueue style
@@ -74,3 +74,5 @@ add_shortcode( 'site_year', 'site_year' );
 		) );
 	}
 	add_action( 'after_setup_theme', 'cynematv_add_woocommerce_support' );
+ 
+ remove_action('woocommerce_before_main_content', 'woocommerce_breadcrumb', 20, 0);

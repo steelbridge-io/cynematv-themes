@@ -88,9 +88,6 @@ body header#masthead {
   display: initial; }
 
 /** Front Page */
-.front-page-title-h1 {
-  line-height: 1; }
-
 .newsletter-ftr {
   display: flex;
   height: 50px !important;
@@ -228,6 +225,22 @@ body header#masthead {
     padding: 1.618em;
     margin-top: 10em;
     margin-bottom: 10em; }
+
+.woocommerce button.button.alt, .woocommerce input.button.alt {
+  background-color: #000000;
+  color: #ffffff;
+  -webkit-font-smoothing: antialiased;
+  width: 100%; }
+
+.woocommerce button.button.alt:hover, .woocommerce input.button.alt:hover {
+  background-color: #3c4043; }
+
+.tab-container .vc_tta-tabs-container .vc_tta-tabs-list .vc_tta-tab a {
+  padding: 1em 1em; }
+  .tab-container .vc_tta-tabs-container .vc_tta-tabs-list .vc_tta-tab a .vc_tta-icon {
+    margin-left: 56px; }
+  .tab-container .vc_tta-tabs-container .vc_tta-tabs-list .vc_tta-tab a span {
+    margin-right: 56px; }
 
 /** Account CSS */
 /** Login CSS */
@@ -593,5 +606,45 @@ section.vc_section.sec-banenr-hdr {
 /** Shop CSS */
 .vc_btn3.vc_btn3-color-danger, .vc_btn3.vc_btn3-color-danger.vc_btn3-style-flat {
   background-color: #f90000 !important; }
+
+/** Login CSS */
+#login-wrapper .pieregWrapper input[type="submit"] {
+  color: #000000;
+  background: #f90000;
+  border-bottom: none; }
+#login-wrapper .pieregWrapper input[type="submit"]:hover {
+  border: 2px solid #ffffff;
+  background: #f90000; }
+
+.woocommerce-form.woocommerce-form-login.login {
+  border: none; }
+
+.login-form {
+  width: 487px;
+  margin-left: auto;
+  margin-right: auto; }
+  .login-form .woocommerce h2 {
+    text-align: center; }
+  .login-form .woocommerce .woocommerce-form .form-row {
+    margin: 0 auto !important; }
+
+.woocommerce-LostPassword.lost_password {
+  text-align: center; }
+  .woocommerce-LostPassword.lost_password a {
+    color: #f90000;
+    text-align: center; }
+
+.woocommerce-LostPassword.lost_password a:hover {
+  color: #f90000; }
+
+#username.woocommerce-Input.input-text.form-control,
+#password.woocommerce-Input.input-text.form-control {
+  box-shadow: #f90000 0px 5px 15px !important; }
+
+.woocommerce-form-login .woocommerce-form-row {
+  margin: 0 auto !important; }
+.woocommerce-form-login .form-row {
+  width: 55%;
+  margin: 0 auto !important; }
 
 /*# sourceMappingURL=supports.css.map */

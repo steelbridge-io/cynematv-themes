@@ -19,3 +19,32 @@
   }
 
 }
+
+.woocommerce button.button.alt, .woocommerce input.button.alt {
+  background-color: $black;
+  color: $white-font;
+  -webkit-font-smoothing: antialiased;
+  width: 100%;
+}
+
+.woocommerce button.button.alt:hover, .woocommerce input.button.alt:hover {
+  background-color: $black-hover;
+}
+
+.tab-container {
+  .vc_tta-tabs-container {
+    .vc_tta-tabs-list {
+      .vc_tta-tab {
+        a {
+          padding: 1em 1em;
+          .vc_tta-icon {
+            margin-left: 56px;
+          }
+          span {
+            margin-right: 56px;
+          }
+        }
+      }
+    }
+  }
+}
