@@ -88,6 +88,10 @@ body header#masthead {
   display: initial; }
 
 /** Front Page *****/
+.sec_latest_video .latest_thum img {
+  height: auto !important;
+  width: 100% !important; }
+
 .newsletter-ftr {
   display: flex;
   height: 50px !important;
