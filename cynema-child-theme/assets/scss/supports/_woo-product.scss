@@ -1,5 +1,14 @@
 /** WooCommerce Product Template */
 
+.rev-btn {
+  a.button {
+    background-color: $black-background !important;
+    color: $white-font !important;
+  }
+}
+
+
+
 .product-template-default {
 
   background: $black-background;

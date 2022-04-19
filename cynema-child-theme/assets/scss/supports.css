@@ -218,6 +218,10 @@ body header#masthead {
   font-weight: 900; }
 
 /** WooCommerce Product Template */
+.rev-btn a.button {
+  background-color: #000000 !important;
+  color: #ffffff !important; }
+
 .product-template-default {
   background: #000000; }
   .product-template-default #content #primary {
